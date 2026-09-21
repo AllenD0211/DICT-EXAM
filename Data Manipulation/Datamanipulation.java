@@ -17,7 +17,12 @@ public class Datamanipulation {
         System.out.println("");
         System.out.println(name.toUpperCase());
         System.out.println(course.toLowerCase());
-        System.out.println(id);
+        System.out.println(name.length());
+        System.out.println(name.indexOf(name));
+
+        if 
+      
+
 
 
 
