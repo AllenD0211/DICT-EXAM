@@ -11,6 +11,7 @@ public class Searching{
     "Maria",
     "Kevin",
     "Sarah",
+    "Maria",
     "James",
     "Anna"
     };
@@ -28,20 +29,15 @@ public class Searching{
         found = true;
         System.out.println("Student found!");
         System.out.println("Index: " + i);
+        System.out.println("Position: " + (i + 1));
+        System.out.println("Student Check: "+ (i + 1));
+        }else if (students[i] == name) {
+            System.out.println("index " + i);
         }
-
-        if(name[i].equals(students)){
-          
-        }
-
         
-
-    }
-    if (!found) {
+    }if (!found) {
         System.out.println("Student not found! ");
     }
-
-    
 
 
     }
