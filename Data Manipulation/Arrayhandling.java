@@ -1,0 +1,6 @@
+public class Arrayhandling {
+    public static void main(String[] args) {
+        System.out.println("array handling");
+    }
+    
+}
